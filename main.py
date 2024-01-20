@@ -105,4 +105,4 @@ print(address1.apartment)  # выведет None
 
 # Пример нарушения ограничений
 address2.house = 35  # вызовет исключение ValueError, так как в переулке номера домов от 1 до 30
-address2.apartment = 5  # вызовет исключение ValueError, так как в переулке нет квартир
+address2.apartment = 5  # вызовет исключение ValueError, так как в переулке нет квартир;
